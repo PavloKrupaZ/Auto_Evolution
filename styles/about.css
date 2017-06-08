@@ -1,0 +1,78 @@
+#myDIV {
+box-sizing: border-box;
+background: url(../img/about/old-car.jpg) center no-repeat;
+background-size: 100% 100%;
+display: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(128, 128, 128, .6);
+}
+
+.container-description{
+  padding: 0 16px 16px;
+  color: black;
+}
+
+.container-description::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #F5F5F5;
+}
+
+.button-contact {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button-contact:hover {
+  background-color: #555;
+}
+
+#about-button {
+  width: 40%;
+  margin:0 0 10px 25px;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0c9a8c;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+#about-button:hover { 
+  background-color: #4AD3C6;
+}

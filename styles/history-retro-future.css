@@ -1,0 +1,197 @@
+body{
+  background: #ebe3dc;
+  width: 100%;
+  color: #fff;
+  font: 14px 'Open Sans', Arial sans-serif; 
+}
+                
+                /***** TITLE *****/
+
+.title-name h1 {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    color: #FCF2E5;
+    background: #90806A;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 10px 40px;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+}
+
+.title-name {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.title-name h1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -15px;
+    background: #90806A;
+}
+
+.title-name h1:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 80%;
+    border-top: 10px solid #90806A;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25px;
+}
+
+                /***** CONTENT *****/
+
+.main-container{
+  display:  inline-block;
+} 
+
+.text-block{
+    float: left; 
+    background-color: #dacbbe;   
+    width: 470px;
+    min-height: 296px;
+    text-align: center;
+    color: #595654;
+}
+
+h3{
+    color:#000000;
+    text-align: center;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.picture{
+  float: left;
+  cursor: pointer;
+}
+
+                /***** SHOW MORE *****/
+
+.more{
+    padding: 0px 20px 0px 20px;
+}
+.morecontent span {
+    display: none;
+}
+
+.morelink {
+    display: block;
+    text-decoration:none;
+    color: #6B523E;
+    font-size: 25px;
+}
+
+                /***** RESPONSIVE *****/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body{
+  }
+  .text-block{
+    width: auto;
+    margin: 0 15% 50px 15%;
+    min-height: 150px;
+  }
+  .picture{
+    margin: 0 25% 35px 25%;
+  }
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 767px){
+  .main-container{
+    margin: 0 1.5% 10px 1.5%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .main-container{
+    margin: 0 1.3% 20px 1.3%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .main-container{
+    margin: 0 3.3% 10px 3.3%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1152px) {
+  .main-container{
+    margin: 0 8.5% 5px 8.5%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1224px) {
+  .main-container{
+    margin: 0 11% 5px 11%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1360px) {
+  .main-container{
+    margin: 0 14.5% 5px 14.5%; 
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1440px) {
+  .main-container{
+    margin: 0 17% 5px 17%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1680px) {
+  .main-container{
+    margin: 0 21.5% 5px 21.5%; 
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1800px) {
+  .main-container{
+    margin: 0 23.5% 5px 23.5%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width : 1920px) {
+  .main-container{
+  margin: 0 25% 5px 25%;
+  }
+  .picture{
+    margin-left: 10px;
+  }
+}
