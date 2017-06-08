@@ -1,3 +1,3 @@
-# Auto_Evolution-Team-B
+# Auto_Evolution
 
-https://vovadakhniy.github.io/Auto_Evolution-Team-B/
+https://pavlokrupaz.github.io/Auto_Evolution/ 
